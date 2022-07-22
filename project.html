@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="project.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            
+                <span class="logo label_text--welcome">Log in to get started</span>
+                <a href="#" class="logo_gan">LJ</a>
+    
+        
+          
+            <div class="input-container">
+                <form action="">
+                    <input class="inp login__input--user" type="text" placeholder="USER">
+                    <input class="inp login__input--pin" type="password" placeholder="PIN" id="">
+                    <!-- <button class="btn">Done</button> -->
+                    <span class="arrow">&RightArrow;</span>
+                </form>
+
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+
+
+            </div>
+        </div>
+    </header>
+    <div class="app">
+                
+            <div class="balance-details">
+                <div class="bala">
+                    <span class="current balance">Current Balance </span><br>
+                    <span class="current date">As of <time>31/07/2020,</time><date>18:37</date></span>
+                </div>
+
+                <span class="amount"><price class="price">$0.00</price></span>
+            </div>
+
+            <div class="wrapper">
+            
+                <div class="one">
+                    <div class="movement_row">
+                        <div class="movement__type movement__type--deposit">2 deposit</div>
+                        <div class="movement__date">3 days ago</div>
+                        <div class="movement__value">$4 000</div>
+                    </div>     
+                    <div class="movement_row">
+                        <div class="movement__type movement__type--withdrawal">2 withdrawal</div>
+                        <div class="movement__date">27/03/2000</div>
+                        <div class="movement__value">-275$</div>
+                    </div>
+                    
+
+                </div>
+
+
+                <div class="two">
+                    <strong>Transfer money</strong>
+                    <p>
+                        <form action="">
+                            <label for="transfer"><input class="reset input__To" type="text" id="transfer"><br>Transfer to</label>
+                            <label for="ammn"><input class="reset input__Amount" type="number" id="ammn"><br>Amount</label>
+                            <button class="btn btn__transfer--btn">&RightArrow;</button>
+                
+                        </form>
+                    </p>
+                    
+
+
+                </div>
+                <div class="three">
+                    <strong>Request loan</strong>
+                    <p>
+                        <form action="" class="only">
+                            <label for="transfer "><input class="reset request__loan--transfer" type="number" id="transfer"><br>Amount</label>
+                
+                            <button class="btn btn-only loan__transfer--btn">&RightArrow;</button>
+                
+                        </form>
+                    </p>
+                    
+                </div>
+                <div class="four">   
+                        <strong>Close account</strong>
+                        <p>
+                            <form action="">
+                                <label for="transfer"><input class="reset close__account" type="text" id="transfer"><br>Confirm user</label>
+                                <label for="ammn"><input class="reset close__account--input" type="password" id="ammn"><br>Confirm PIN</label>
+                                <button class="btn close__account--button">&RightArrow;</button>
+                    
+                            </form>
+                        </p>
+                    
+                </div>
+            
+            </div>
+            <div class="footer">
+                
+            </div>
+            <footer>
+                <ul>
+                    <li>in <span class="digit on digit_in">$0.00</span></li>
+                    <li>out <span class="digit off digit_out">$0.00</span></li>
+                    <li>interest <span class="digit on digit_interest">$0.00</span></li>
+                    <li class="arr button-sort"><span id="arrow">&DownArrow;</span>sort</li>
+                    <li><span class="logged">you will be logged out in <time>00:00</time></span></li>
+                </ul>
+            
+            </footer>
+    </div>
+
+
+    <script src="project.js"></script>
+</body>
+</html>
